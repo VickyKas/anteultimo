@@ -1,0 +1,128 @@
+$padding: 30px;
+$margin: 4*10px;
+
+@if $vista==mobile {
+    @media screen and (max-width: 767px){
+        .container-fluid{
+            width: 100vw;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        li {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .textarea--margin {
+            display: grid;
+        }
+
+    }
+}
+.nav li {
+    list-style: none;
+    margin-top: 25px;
+}
+.loguito {
+    width: 250px;
+}
+.nav--flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    margin: {
+        bottom: 70px;
+        top: 70px;
+    } 
+}
+.parrafo--margen {
+    margin-bottom: 50px;
+    margin-left: $margin;
+}
+p {
+    margin-left: $margin;
+    margin: 25px;
+}
+section {
+    img {
+        height: 400px;
+    }
+}
+
+#carouselExampleFade {
+    margin: $margin;
+}
+.texto__reds {
+    justify-content: center;
+    margin-top: $margin;
+    margin-bottom: 20px;
+}
+
+.texto__reds {
+    h3 {
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    }
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+        img {
+            margin: 4px;
+        }
+}
+
+.ig:hover {
+    transform: translateY(-10px);
+
+}
+.whats:hover {
+    transform: translateY(-10px);
+}
+/* WOODBOX */
+
+.video--margen {
+    margin-top: 100-30px;
+}
+/* CONTACTO */ 
+.formulario--margin {
+    margin: $margin;
+}
+.textarea--margin {
+    margin: $margin;
+}
+input {
+    margin-bottom: 20px;
+}
+/* PRODUCTOS */
+.filaCards {
+    margin-left: 70px;
+    margin-top: 100px;
+}
+/* Ubicacion */
+.parrafUbic {
+    margin-top: 0px;
+}
+.mapa--tamaño {
+    height: 90%;
+}
+.contenidoMB {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.cjtas {
+    height: 85%;
+}
+.cardM {
+    margin-left: 90*2px;
+}
+

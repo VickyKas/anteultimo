@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* GENERAL */
+.container-fluid {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 25px; }
+
+h1 {
+  font-size: 30px; }
+
+.pochoclo {
+  width: 250px;
+  height: auto; }
+
+html, .container-fluid {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px; }
+
+/* Contacto */
+.botones--weight {
+  font-weight: bolder; }
+
+@media screen and (max-width: 767px) {
+  li {
+    font-size: 16px; } }
+
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    width: 100vw; }
+  .nav {
+    display: flex;
+    justify-content: space-between; }
+  li {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .textarea--margin {
+    display: grid; } }
+
+.nav li {
+  list-style: none;
+  margin-top: 25px; }
+
+.loguito {
+  width: 250px; }
+
+.nav--flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row; }
+
+header {
+  position: sticky;
+  z-index: 2; }
+
+h1 {
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 70px; }
+
+.parrafo--margen {
+  margin-bottom: 50px;
+  margin-left: 40px; }
+
+p {
+  margin-left: 40px;
+  margin: 25px; }
+
+section img {
+  height: 400px; }
+
+#carouselExampleFade {
+  margin: 40px; }
+
+.texto__reds {
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+.texto__reds h3 {
+  font-weight: bolder;
+  display: flex;
+  justify-content: center; }
+
+.redes {
+  display: flex;
+  justify-content: center; }
+  .redes img {
+    margin: 4px; }
+
+.ig:hover {
+  transform: translateY(-10px); }
+
+.whats:hover {
+  transform: translateY(-10px); }
+
+/* WOODBOX */
+.video--margen {
+  margin-top: 70px; }
+
+/* CONTACTO */
+.formulario--margin {
+  margin: 40px; }
+
+.textarea--margin {
+  margin: 40px; }
+
+input {
+  margin-bottom: 20px; }
+
+/* PRODUCTOS */
+.filaCards {
+  margin-left: 70px;
+  margin-top: 100px; }
+
+/* Ubicacion */
+.parrafUbic {
+  margin-top: 0px; }
+
+.mapa--tamaño {
+  height: 90%; }
+
+.contenidoMB {
+  margin-bottom: 100px;
+  margin-top: 100px; }
+
+.cjtas {
+  height: 85%; }
+
+.cardM {
+  margin-left: 180px; }
+
+html body {
+  background-image: url(../Assets/Img/background.jpg);
+  background-attachment: fixed;
+  width: 100%; }
+
+.nav a {
+  color: #d6670c; }
+
+.ul__li--margen {
+  background-color: #e0ca8b; }
+
+@media screen and (max-width: 767px) {
+  h1 {
+    color: #259725; }
+  h3 {
+    color: #911414; }
+  .ul__li--margen {
+    background-color: transparent; } }

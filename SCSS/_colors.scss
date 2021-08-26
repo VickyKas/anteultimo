@@ -1,0 +1,23 @@
+html {
+    body {
+    background-image: url(../Assets/Img/background.jpg);
+    background-attachment: fixed;
+    width: 100%;
+} 
+}
+.nav li a {
+    color: rgb(214, 103, 12);
+}
+.ul__li--margen {
+    background-color: rgb(224, 202, 139);
+}
+@if $vista==mobile {
+    @media screen and (max-width:767px) {
+        h1 {color: rgb(37, 151, 37);}
+        h3 {color:rgb(145, 20, 20)}
+        .ul__li--margen {
+            background-color: transparent;
+        }
+    }
+    
+ }

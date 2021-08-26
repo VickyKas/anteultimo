@@ -1,0 +1,37 @@
+$fontBody:'Kodchasan', sans-serif;
+$FontSize: 25px;
+$SizeH1: 30px;
+$vista: mobile;
+
+/* GENERAL */
+.container-fluid {
+    font-family: $fontBody;
+    font-size: $FontSize;
+}
+
+h1 {
+    font-size: $SizeH1;
+}
+
+.pochoclo{
+    width: 250px;
+    height: auto;
+}
+html, .container-fluid{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Contacto */ 
+.botones--weight {
+    font-weight: bolder;
+}
+@if $vista==mobile {
+    @media screen and (max-width: 767px){
+        li{
+            font-size: 16px;
+        }
+    }
+}
+
